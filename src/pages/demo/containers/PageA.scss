@@ -1,0 +1,27 @@
+.img{
+    width: 120px;
+    height: 120px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.warn{
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+.input{
+  width: 300px;
+}
+.input2{
+  width: 300px;
+}
+.login{
+  margin-top: 60px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}

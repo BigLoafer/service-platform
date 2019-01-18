@@ -1,0 +1,41 @@
+.tipStyle {
+    width: 100%;
+    display: flex;
+    justify-content: 'center';
+    align-items: 'center'
+  }
+  .container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  }
+  .pagetion{
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  }
+  .text{
+    color: #1890ff;
+    cursor: pointer;
+  }
+  .actionCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .actionCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .line{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .divder{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .opt{
+    cursor: pointer;
+  }

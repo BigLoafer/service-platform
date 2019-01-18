@@ -1,0 +1,183 @@
+.container{
+    display: flex;
+    position: relative;
+    background-color: #ff5400;
+    overflow: hidden;
+    height: 100vh;
+    .layer--black {
+      background: rgba(0, 0, 0, 0.5);
+      height: 100vh;
+      width: 100vw;
+    }
+}
+
+.logo_img{
+    position: absolute;
+    right: 35vw;
+    top: -90px;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 440px;
+    height: 539px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10vh;
+    right: 13vw;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    height: 16px;
+    color: #ff6700;
+    margin-top: 48px;
+}
+.shangmi{
+    font-size: 24px;
+    color: rgba(0,0,0,0.85);
+    margin-top: 33px;
+}
+.english{
+    font-size: 12px;
+    color: rgba(0,0,0,0.85);
+    letter-spacing: 0.7px;
+}
+.loginStyleCon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 32px;
+}
+.loginItem{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.grayLine{
+    width: 180px;
+    height: 1px;
+    background-color: rgba(0,0,0,0.05);
+    margin-top: 8px;
+}
+.selectedLine{
+    width: 180px;
+    height: 1px;
+    background-color: #ff6900;
+    margin-top: 8px;
+}
+.selectedText{
+    color: #ff6900;
+    font-size: 14px;
+    letter-spacing: 0.82px;
+}
+.unselectedText{
+    color:rgba(0,0,0,0.85);
+    font-size: 14px;
+    letter-spacing: 0.82px;
+}
+.phoneLogin{
+    display: flex;
+    flex-direction: column;
+}
+.phoneCon{
+    display: flex;
+    margin-top: 24px;
+    position: relative;
+}
+.codeCon{
+    display: flex;
+    margin-top: 16px;
+}
+.input{
+    width: 360px;
+    height: 56px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.15);
+    padding-left: 8px;
+    border-radius: 4px;
+}
+.area{
+    width: 64px;
+    height: 56px;
+    background: #EAEAEA;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-right: 0;
+    border-radius: 4px 0 0 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.china{
+    font-size: 14px;
+    color: rgba(0,0,0,0.45);
+}
+.phoneInput{
+    width: 296px;
+    height: 56px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.15);
+    padding-left: 8px;
+    border-radius: 0 4px 4px 0;
+}
+.code{
+    position: absolute;
+    font-size: 14px;
+    color: #ff6900;
+    top: 17px;
+    right: 18px;
+    cursor: pointer;
+}
+.grayCode{
+    position: absolute;
+    font-size: 14px;
+    color: #ccc;
+    top: 17px;
+    right: 18px;
+    cursor: pointer;
+}
+.loginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6900;
+    border-radius: 4px;
+    width: 360px;
+    height: 56px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.loginText{
+    color: white;
+    font-size: 18px;
+}
+.bottom{
+    display: flex;
+    width: 360px;
+    height: 20px;
+    margin-top: 16px;
+}
+.empty{
+    flex: 1;
+}
+.forgetPwd{
+    color: #ff6900;
+    font-size: 14px;
+    align-content: flex-end;
+    cursor: pointer;
+}
+.forgetText{
+    font-size: 14px;
+    color: rgba(0,0,0,0.85);
+    margin-top: 32px;
+}

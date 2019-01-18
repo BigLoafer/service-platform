@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="20px" viewBox="0 0 13 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="商米服务平台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.65">
+        <g id="登录" transform="translate(-781.000000, -341.000000)">
+            <g id="Input/Medium/Placeholder-" transform="translate(760.000000, 297.000000)">
+                <g id="Group-125" transform="translate(16.000000, 41.000000)">
+                    <g id="Group-158" transform="translate(1.000000, 3.000000)">
+                        <g id="mobile" transform="translate(5.000000, 1.000000)">
+                            <path d="M9.585,0 L1.215,0 C0.543375,0 0,0.566015625 0,1.265625 L0,16.734375 C0,17.4339844 0.543375,18 1.215,18 L9.585,18 C10.256625,18 10.8,17.4339844 10.8,16.734375 L10.8,1.265625 C10.8,0.566015625 10.256625,0 9.585,0 Z" id="Shape" stroke-opacity="0.45" stroke="#000000" fill-rule="nonzero"></path>
+                            <path d="M6.109375,16.75 L4.890625,16.75 C4.48640625,16.75 4.2,16.4707031 4.2,16.125 C4.2,15.7792969 4.48640625,15.5 4.890625,15.5 L6.109375,15.5 C6.51359375,15.5 6.8,15.7792969 6.8,16.125 C6.8,16.4707031 6.51359375,16.75 6.109375,16.75 Z" id="Path" fill-opacity="0.45" fill="#000000"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,134 @@
+{
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "typeCheck": true,
+    "include": [
+      "./components",
+      "./env",
+      "./error",
+      "./helpers",
+      "./lib",
+      "./models",
+      "./pages",
+      "./services",
+      "./typescript",
+      "./store.ts"
+    ]
+  },
+  "rules": {
+    "jsx-alignment": true,
+    "jsx-no-lambda": false,
+    "jsx-no-string-ref": true,
+    "class-name": true,
+    "object-literal-sort-keys": false,
+    "member-access": false,
+    "interface-name": false,
+    "align": [
+      true,
+      "parameters",
+      "arguments",
+      "statements"
+    ],
+    "label-position": true,
+    "forin": true,
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "max-line-length": [
+      true,
+      80
+    ],
+    "no-console": [
+      true,
+      "log",
+      "error",
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-arg": true,
+    "no-consecutive-blank-lines": true,
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": true,
+    "no-switch-case-fall-through": true,
+    "no-unused-expression": true,
+    "one-line": [
+      true,
+      "check-catch",
+      "check-else",
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "radix": true,
+    "semicolon": [
+      true,
+      "always",
+      "ignore-bound-class-methods"
+    ],
+    "switch-default": true,
+    "trailing-comma": [
+      false
+    ],
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "typedef": [
+      true,
+      "parameter",
+      "property-declaration"
+    ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "no-boolean-literal-compare": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-module",
+      "check-operator",
+      "check-separator",
+      "check-type",
+      "check-typecast"
+    ],
+    "max-classes-per-file": [true, 1],
+    "no-invalid-this": true,
+    "no-multi-spaces": true,
+    "no-else-after-return": false,
+    "jsx-curly-spacing": true,
+    "import-name": false
+  }
+}

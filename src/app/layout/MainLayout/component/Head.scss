@@ -1,0 +1,158 @@
+.container{
+  height: 64px;
+  width: 100%;
+  background-color:rgba(0,0,0,0.85);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 1200px;
+}
+.headContent{
+  width: 1200px;
+  min-width: 1200px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.logo{
+  width: 74px;
+  height: 14px;;
+  color: white;
+}
+.service{
+  font-size: 14px;
+  color: white;
+  margin-left: 9px;
+}
+.tabItemCon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.taskIcon{
+  width: 16px;
+  height: 15px;
+  color: rgba(255,255,255,1);
+}
+.taskIconMargin{
+  width: 16px;
+  height: 15px;
+  color: rgba(255,255,255,1);
+  margin-left: 48px;
+}
+.tabContent{
+  margin-left: 77px;
+  display: flex;
+}
+.taskText{
+  margin-left: 8px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.75);
+}
+.taskTextWhite{
+  margin-left: 8px;
+  font-size: 14px;
+  color: rgba(255,255,255,1);
+}
+.account{
+  cursor: pointer;
+}
+.accountText{
+  font-size: 14px;
+  color: white;
+}
+.site{
+  display: flex;
+  align-items: center;
+  width: 136px;
+  height: 48px;
+  font-size: 14px;
+  color: rgba(0,0,0,0.85);
+  background: #fff;
+}
+.site:hover{
+  color: #ff6900;
+  cursor: pointer;
+}
+.empty{
+  flex: 1;
+}
+
+.inputItemCon{
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+.nameCon{
+  display: flex;
+  width: 120px;
+  justify-content: flex-end;
+  align-items:center;
+}
+.inputCon{
+  width: 560px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 8px;
+}
+.input{
+  width: 382px;
+}
+.uploadText{
+  margin-top: 25px;
+  width: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+}
+.uploadCon{
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border: #ddd dashed 1px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.imgCon{
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin-left: 50px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.img{
+  width: 110px;
+  height: 110px;
+}
+.layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.imgCon:hover  .layer{
+  display: flex;
+}
+.bottom{
+  display: flex;
+}
+.delete{
+  color: white;
+  width: 30px;
+  height: 30px;
+}

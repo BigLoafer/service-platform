@@ -1,0 +1,20 @@
+.title {
+  opacity: 0.85;
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.client {
+  margin-top: 48px;
+  :global(.ant-form-item-required:before){
+    content: "";
+  }
+  :global(.ant-input-lg) {
+    height: 32px;
+    font-size: 14px;
+  }
+}
+
+
+

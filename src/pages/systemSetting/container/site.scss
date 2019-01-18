@@ -1,0 +1,69 @@
+body{
+    background-color: #f0f0f0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.content{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
+.site{
+    width: 1200px;
+    margin-top: 16px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 24px 24px 24px 24px;
+}
+.inputItemCon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.nameCon{
+    display: flex;
+    width: 280px;
+    justify-content: flex-end;
+    align-items:center;
+}
+.inputCon{
+    width: 560px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 8px;
+}
+.input{
+    width: 382px;
+}
+.cascader{
+    width: 382px;
+}
+.textArea{
+    width: 382px;
+}
+.btnCon{
+    width: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-top: 24px;
+    width: 300px;
+}
+.line{
+  width: 20px;
+  height: 1px;
+  background-color: rgba(0,0,0,0.35);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.timePicker{
+  width: 175px;
+}

@@ -1,0 +1,109 @@
+.container{
+    display: flex;
+    position: relative;
+    background-color: #ff5400;
+    overflow: hidden;
+    height: 100vh;
+    .layer--black {
+      background: rgba(0, 0, 0, 0.5);
+      height: 100vh;
+      width: 100vw;
+    }
+}
+
+.logo_img{
+    position: absolute;
+    right: 35vw;
+    top: -90px;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 440px;
+    height: 539px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10vh;
+    right: 13vw;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    height: 16px;
+    color: #ff6700;
+    margin-top: 48px;
+}
+.shangmi{
+    font-size: 24px;
+    color: rgba(0,0,0,0.85);
+    margin-top: 33px;
+}
+.english{
+    font-size: 12px;
+    color: rgba(0,0,0,0.85);
+    letter-spacing: 0.7px;
+}
+.loginStyleCon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 32px;
+}
+.loginItem{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.phoneLogin{
+    display: flex;
+    flex-direction: column;
+}
+.phoneCon{
+    display: flex;
+    margin-top: 16px;
+    position: relative;
+}
+.codeCon{
+    display: flex;
+    margin-top: 16px;
+}
+.input{
+    width: 360px;
+    height: 56px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.15);
+    padding-left: 8px;
+    border-radius: 4px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6900;
+    border-radius: 4px;
+    width: 360px;
+    height: 56px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.submitText{
+    color: white;
+    font-size: 18px;
+}
+
+.forgetText{
+    font-size: 14px;
+    color: rgba(0,0,0,0.85);
+    margin-top: 32px;
+}

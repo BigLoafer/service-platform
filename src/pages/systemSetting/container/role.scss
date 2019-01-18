@@ -1,0 +1,75 @@
+body{
+    background-color: #f0f0f0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.content{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
+.role{
+    width: 1200px;
+    margin-top: 16px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 24px 24px 24px 24px;
+}
+.head{
+    display: flex;
+    flex: 1;
+    margin-top: 24px;
+}
+.empty{
+    flex: 1;
+}
+.inputAccount{
+    width: 382px;
+}
+.w120{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.privilege{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 16px;
+}
+.headCon{
+    display: flex;
+    position: relative;
+}
+.input{
+    width: 382px;
+    margin-left: 16px;
+}
+.text{
+    position: absolute;
+    top: 5px;
+    right: 85px;
+}
+.modalContent{
+    display: flex;
+    flex-direction: column;
+}
+.warn{
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+.transfer{
+    margin-left: 95px;
+    margin-top: 16px;
+}

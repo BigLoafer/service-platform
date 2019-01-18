@@ -1,0 +1,16 @@
+.swspCte {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  .swspButt {
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #ff6900;
+  }
+
+  :global(.ant-cascader-input) {
+    height: 29px !important;
+  }
+}
